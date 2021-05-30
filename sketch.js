@@ -37,13 +37,13 @@ function setup() {
 	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
 	World.add(world, ground);
 	
-	body1 = Bodies.rectangle(400, 400, 200, 20, {isStatic:false});
+	body1 = Bodies.rectangle(400, 650, 200, 20, {isStatic:false});
 	World.add(world, body1);
 	
-	body2 = Bodies.rectangle(311, 350, 20, 120, {isStatic:false});
+	body2 = Bodies.rectangle(311, 550, 20, 120, {isStatic:false});
 	World.add(world, body2);
 
-	body3 = Bodies.rectangle(489, 350, 20, 120, {isStatic:false});
+	body3 = Bodies.rectangle(489, 550, 20, 120, {isStatic:false});
 	World.add(world, body3);
 	 
 	
